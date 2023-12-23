@@ -1,1 +1,31 @@
 Кабаков Илья
+
+/*#include <iostream>                        
+using namespace ::std;
+void main()
+{
+	system("Chcp 1251");
+	printf("Введите элементы массива K через пробел");
+	int K[7];
+	for (int j = 0; j < 7; j++)
+	{
+		cin >> K[j];
+	}
+	int multi;
+	multi = 1;
+	for (int j = 0; j < 7; j++)
+	{
+		if (K[j] > 0)
+			multi = multi*K[j];
+		else
+			K[j] = 0 ;
+	}
+	printf(" K =[");
+	for (int j = 0; j < 7; j++)
+	{
+		cout<< K[j] << ",";
+	}
+	printf(" ]");
+	printf("\n");
+	printf(" произведение положительных элементов = %i \n", multi);
+}*/
